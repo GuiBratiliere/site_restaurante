@@ -1,0 +1,29 @@
+#footer_itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8% 24px 8%;
+    background-color: #ffcb45;
+}
+
+#list_footer {
+    list-style: none;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#list_footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.title_footer {
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px) {
+    #footer_itens{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
